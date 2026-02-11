@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Bapu Primary & High School</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="stylesheet.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+<img src="loading-logo.png" class="logo">
+<h1>BAPU PRIMARY & HIGH SCHOOL</h1>
+<p>Discipline • Knowledge • Excellence</p>
+</header>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#gallery">Gallery</a>
+<a href="#admission">Admission</a>
+<a href="#login">Login</a>
+<a href="#contact">Contact</a>
+</nav>
+
+
+<section class="hero" id="home">
+<video autoplay muted loop>
+<source src="BG_VIDEO.mp4" type="video/mp4">
+</video>
+
+<div class="hero-text">
+<h2>Building Bright Futures</h2>
+</div>
+</section>
+
+<section id="about">
+<h2>About Us</h2>
+<p class="center">
+We provide quality education, strong discipline, and modern facilities
+to help every student succeed in life.
+</p>
+<div class="box">
+        <div class="box">
+            <h3>Smart Classrooms</h3>
+            <p>Modern digital learning environment.</p>
+        </div>
+        <div class="box">
+            <h3>Experienced Faculty</h3>
+            <p>Highly qualified and dedicated teachers.</p>
+        </div>
+        <div class="box">
+            <h3>Library & Sports</h3>
+            <p>Balanced academic and physical growth.</p>
+        </div>
+    </div>
+
+</section>
+
+<section id="gallery">
+<h2>Our Campus</h2>
+<div class="gallery">
+<img src="school-campus.jpeg">
+<img src="school-students.jpg">
+<img src="IMG20250627152242.jpg">
+</div>
+</section>
+
+<section id="admission">
+<h2>Admissions Open</h2>
+<div class="admission">
+
+<div class="box">
+<h1 id="timer"></h1>
+</div>
+
+<div class="box">
+<h3>Online Admission</h3>
+<form onsubmit="event.preventDefault();alert('Application Submitted');">
+<input placeholder="Student Name" required>
+<input placeholder="Class">
+<input placeholder="Parent Contact">
+<textarea placeholder="Message"></textarea>
+<button class="btn">Submit</button>
+</form>
+</div>
+
+</div>
+</section>
+
+<!--section id="login">
+<h2>Student Login</h2>
+<div class="login-box">
+<input id="user" placeholder="Student ID">
+<input id="pass" type="password" placeholder="Password">
+<button class="btn" onclick="login()">Login</button>
+<p id="loginMsg" class="center"></p>
+</div>
+</section-->
+
+<section id="contact">
+<h2>Contact Us</h2>
+<div class="contact">
+<div>
+<p><b>Address:</b> triveni road, yeshwanthpur, bengaluru</p>
+<p><b>Phone:</b> 9611800250</p>
+<p><b>Email:</b> bapuinstitutions@gmail.com</p>
+</div>
+
+<div>
+<iframe src="https://maps.google.com/maps?q=bapu high school&t=&z=14&ie=UTF8&iwloc=&output=embed"></iframe>
+</div>
+</div>
+</section>
+
+<footer>
+<p>Follow Us</p>
+<a href="#https://www.instagram.com/bapu_school?igsh=dm1vaG5hNThmZ2R0"><i class="fab fa-instagram"></i></a>
+<a href="#"><i class="fab fa-facebook"></i></a>
+<p>© CREATED BY MANOJ M - BAPU SCHOOL</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
