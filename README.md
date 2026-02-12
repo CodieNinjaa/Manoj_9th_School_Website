@@ -10,9 +10,9 @@ This project is a modern, responsive landing page designed for **Bapu Primary & 
 
 **Institution:** Bapu School
 
-**Purpose:** Curriculum Project
-
 **Guide:** Shivam Kumar S
+
+**Purpose:** Curriculum Project
 
 ---
 
