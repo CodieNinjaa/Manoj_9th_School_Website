@@ -12,6 +12,8 @@ This project is a modern, responsive landing page designed for **Bapu Primary & 
 
 **Purpose:** Curriculum Project
 
+**Guide:** Shivam Kumar S
+
 ---
 
 ## Key Features
